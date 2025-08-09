@@ -1,7 +1,7 @@
 
 export default function pageLoad(){
     const content  = document.getElementById('content');
-
+    content.textContent = '';
     const leftContent = document.createElement('div');
     leftContent.classList.add('leftcontent');
 
