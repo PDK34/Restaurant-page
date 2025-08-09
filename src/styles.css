@@ -1,10 +1,8 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Great+Vibes&family=Original+Surfer&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-* {
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Original+Surfer&display=swap');
+*{
+    box-sizing: border-box;
 }
-
-
 body{
     margin: 0;
   padding: 0;                  
@@ -72,21 +70,30 @@ body{
 }
 
 #content>.leftcontent{
-    width: 100;
+    width: 100%;
     font-size: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2rem;
+    padding-left: 4rem;
     background-color: #343131;
 }
 
 .comment{
     border: 1px solid black;
-    border-radius: 0.5rem;
-    background-color: rgb(123, 232, 239);
+    border-radius: 2rem;
+    background-color: rgb(190, 108, 25);
     padding: 1rem;
-    font-family: 'Bangers';
+    font-family: 'Dancing Script';
+    color: rgb(163, 255, 224);
+
+
+}
+.comment:hover{
+        box-shadow: 0 0 15px rgba(255, 140, 0, 0.8),
+                0 0 30px rgba(255, 140, 0, 0.6),
+                0 0 45px rgba(255, 69, 0, 0.4);
 }
 #content>.rightcontent{
     height: 80vh;
