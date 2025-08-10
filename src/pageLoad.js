@@ -6,7 +6,7 @@ export default function pageLoad(){
     leftContent.classList.add('leftcontent');
 
     const comment  = document.createElement('div');
-    comment.textContent = 'Divine taste carefully curated to meet the needs of your taste buds, along with the bliss of a homely touch';
+    comment.textContent = '" Divine taste carefully curated to meet the needs of your taste buds, along with the bliss of a homely touch "';
     comment.classList.add('comment');
     leftContent.appendChild(comment);
 
