@@ -171,7 +171,8 @@ gap: 1rem;
 background-color: #4a4545;
 width: 30%;
 height: 40%;
-border-radius: 1rem;
+border-radius: 1rem;transition: all 0.2s ease-in-out;
+
 }
 .item1-comment{
     color: #dddddd;
@@ -183,7 +184,7 @@ border-radius: 1rem;
         height: 100%;
     width:100%;
     background-image: url('./assets/images/croissant-6562091_1280.jpg');
-    background-size: 100%; 
+    background-size: 140%; 
     background-repeat: no-repeat;
     border-top-right-radius: 1rem;
 }
@@ -193,7 +194,8 @@ gap: 1rem;
 background-color: #4a4545;
 width: 30%;
 height: 40%;
-border-radius: 1rem;
+border-radius: 1rem;transition: all 0.2s ease-in-out;
+
 }
 .item2-comment{
     color: #dddddd;
@@ -205,7 +207,7 @@ border-radius: 1rem;
         height: 100%;
     width:100%;
     background-image: url('./assets/images/gourmet-2446699_1280.jpg');
-    background-size: 100%; 
+    background-size: 140%; 
     background-repeat: no-repeat;
     border-top-right-radius: 1rem;
 }
@@ -218,6 +220,7 @@ background-color: #4a4545;
 width: 30%;
 height: 40%;
 border-radius: 1rem;
+transition: all 0.2s ease-in-out;
 }
 .item3-comment{
     color: #dddddd;
@@ -229,10 +232,18 @@ border-radius: 1rem;
         height: 100%;
     width:100%;
     background-image: url('./assets/images/indian-1768906_1280.jpg');
-    background-size: 100%; 
+    background-size: 170%; 
     background-repeat: no-repeat;
     border-top-right-radius: 1rem;
 }
+.item1:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); /* whitish glow */
+}.item2:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); /* whitish glow */
+}.item3:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); /* whitish glow */
+}
+
 .about-page{
     font-family: monospace;
     font-size: 1rem;
