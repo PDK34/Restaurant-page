@@ -86,10 +86,10 @@ body{
 .comment{
     border: 1px solid black;
     border-radius: 2rem;
-    background-color: rgb(110, 61, 12);
+    background-color: rgb(183, 129, 76);
     padding: 1rem;
     font-family: 'Dancing Script';
-    color: rgb(163, 255, 224);
+    color: rgb(61, 61, 61);
     transition: box-shadow 0.3s ease-in-out;
     position: relative;
     overflow: hidden;
@@ -150,20 +150,88 @@ body{
 .menu-page{
     width: 100%;
     padding: 1rem;
-    border: dashed 2px rgb(153, 153, 153);
-    border-radius: 2rem;
+    border: dashed 4px rgb(153, 153, 153);
     background-color: #4d4d4d;
     display: flex;
     flex-direction: column;
+    gap: 1rem;
+    flex-wrap: wrap;
 
 }
 
-.menu-item{
-    width: 100%;
 
+.menu-title{
+    font-size: 4rem;
+    font-family: 'Dancing Script';
+    text-decoration: underline;
+}
+.item1{
+display: flex;
+gap: 1rem;
+background-color: #4a4545;
+width: 30%;
+height: 40%;
+border-radius: 1rem;
+}
+.item1-comment{
+    color: #dddddd;
+    font-size: 2rem;
     padding: 1rem;
-    background-color: #3b3b3b;
-    
+    font-family: 'Dancing Script',cursive;
+}
+.item1-image{
+        height: 100%;
+    width:100%;
+    background-image: url('./assets/images/croissant-6562091_1280.jpg');
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    border-top-right-radius: 1rem;
+}
+.item2{
+display: flex;
+gap: 1rem;
+background-color: #4a4545;
+width: 30%;
+height: 40%;
+border-radius: 1rem;
+}
+.item2-comment{
+    color: #dddddd;
+    font-size: 2rem;
+    padding: 1rem;
+    font-family: 'Dancing Script',cursive;
+}
+.item2-image{
+        height: 100%;
+    width:100%;
+    background-image: url('./assets/images/gourmet-2446699_1280.jpg');
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    border-top-right-radius: 1rem;
+}
+
+
+.item3{
+display: flex;
+gap: 1rem;
+background-color: #4a4545;
+width: 30%;
+height: 40%;
+border-radius: 1rem;
+}
+.item3-comment{
+    color: #dddddd;
+    font-size: 2rem;
+    padding: 1rem;
+    font-family: 'Dancing Script',cursive;
+}
+.item3-image{
+        height: 100%;
+    width:100%;
+    background-image: url('./assets/images/indian-1768906_1280.jpg');
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    border-top-right-radius: 1rem;
 }
 .about-page{
     font-family: monospace;
@@ -175,7 +243,7 @@ body{
         justify-content: start;
     white-space: pre-line; 
     gap:4rem;
-    padding: 3rem;
+    padding: 2rem;
 }
 .about-section{
 
@@ -183,7 +251,7 @@ background-color: #4a4545;
 color: #bdbdbd;
 
     border-radius: 2rem;
-    padding: 2.8rem;
+    padding: 2.6rem;
         box-shadow: 0 4px 15px rgba(0,0,0,0.5);
         font-family: 'Dancing Script';
         font-size: 2rem;
@@ -196,7 +264,7 @@ background-color: #2d2b2b;
 color: #e3e3e3;
 
     border-radius: 2rem;
-    padding: 3.2rem;
+    padding: 3rem;
         box-shadow: 0 4px 15px rgba(70, 70, 70, 0.5);
         font-size: 2.2rem;
 
@@ -222,3 +290,5 @@ color: #dddddd;
         width: 90%;
         font-size: 1.21rem;
 }
+
+
